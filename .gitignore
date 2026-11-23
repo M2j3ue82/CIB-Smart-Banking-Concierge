@@ -1,0 +1,30 @@
+# Secrets and credentials
+.env
+*.env
+*.key
+*.pem
+secrets/
+credentials*
+
+# n8n local data (contains the encryption key and credentials)
+.n8n/
+n8n-data/
+config
+database.sqlite*
+n8nEventLog*.log
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Python (for future work)
+__pycache__/
+.venv/
+venv/
+node_modules/
+
+# Python virtual environment and generated data
+.venv/
+data/processed/
+*.pyc
